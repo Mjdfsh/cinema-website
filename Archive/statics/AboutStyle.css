@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Joan", serif;
+  }
+  body {
+    background-color: rgb(0, 0, 0);
+
+    font-family: "Joan", serif;
+  }
+
+table {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Adjust the width as needed */
+    max-width: 600px; /* Alternatively, use max-width */
+    height: 300px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #1a1a1a;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(71, 71, 71, 0.7);
+    margin-top: 0;
+  }
+th{
+    background: #0a0a0a;
+    color: white;
+}
+td{
+    color: #dadada;
+    font-family: "Joan", serif;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 5%; /* Use relative units */
+    font-size: 2rem; /* Adjust the font size as needed */
+  }
+  .main-container {
+    color: #adadad;
+    display: grid;
+    grid-template-columns: 1fr; /* Use flexible units */
+  }
+  
+  .sidebar {
+    background: linear-gradient(45deg, rgba(20, 3, 3, 0.05), rgba(25, 29, 32, 255));
+    backdrop-filter: blur(5px);
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+    margin-top: 2rem;
+    width: 10%; /* Adjust the width as needed */
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  .sidebar-groups {
+    margin-bottom: 5rem;
+  }
+  
+  .sg-title {
+    margin-bottom: 0.5rem;
+    color: #ffffffc0;
+  }

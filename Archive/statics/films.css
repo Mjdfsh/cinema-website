@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Joan", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #adadad;
+    margin: 10px 0;
+}
+
+.book-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #d61c2c94;
+    border-radius: 2rem;
+    color: #adadad;
+    transition: 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #746f71;
+}
+
+body {
+    background-color: rgb(22, 25, 29);
+
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+.title {
+    margin-right: 3rem;
+    color: #ff4150;
+}
+
+/* Main Container */
+.main-container {
+    width: 100%;
+    color: #adadad;
+
+
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+/*    make items at the center*/
+
+
+}
+
+/* Sidebar */
+.sidebar {
+    background: linear-gradient(45deg, rgba(20, 3, 3, 0.05), rgba(25, 29, 32, 255));
+    backdrop-filter: blur(5px);
+    height: 100%;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.sg-title {
+    margin-bottom: 0.5rem;
+    color: #ffffffc0;
+    text-align: center;
+}
+
+.sg-title a {
+    color: #ffffffc0;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+/* Movies Container */
+.title-soon {
+    text-align: center;
+    border-style: solid;
+    border-color: #ff4150;
+    border-radius: 8px 8px 0 0;
+    margin: 35px 3rem 25px 3rem;
+    color: #a09b95;
+}
+
+.upcoming-img-box {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+}
+
+.upcoming-title {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid #ff4150;
+    color: #a09b95;
+    background-color: #1e1f26;
+    font-weight: 500;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.trailer-btn {
+    margin-left: 1rem;
+    border: 1px solid #ff4150;
+    color: #adadad;
+    background-color: #1e1f26;
+}
+
+.trailer-btn:hover {
+    color: #1e1f26;
+    background-color: #746f71;
+}
+
+.current-movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.current-movie {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.05), rgba(205, 140, 56, 0.15));
+}
+
+.cm-img-box {
+    position: relative;
+    height: 500px;
+    width: 400px;
+
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.movie-title {
+    color: #fff;
+    margin-bottom: 0.2rem;
+}
+
+.booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+

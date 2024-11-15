@@ -1,0 +1,253 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url(https://www.eyeofriyadh.com/news_images/2019/03/343cac4eec96f.jpg) no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1000px;
+    justify-content: space-evenly;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+article {
+    text-align: left;
+    padding: 20px;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    background-color: #1e1f26;
+    border-radius: 10px;
+    font-size: 15px;
+
+    height: 750px;
+}
+
+a:hover {
+    color: #746f71;
+}
+
+a {
+    color: #ff0048;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    display: block
+}
+
+p {
+    color: #ff0048;
+}
+
+input {
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+input[type=radio] {
+    width: 10%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=radio]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=date] {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+/*make items in form one next one */
+form {
+    padding: 0 20px;
+}
+
+form .form-control {
+    width: 45%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+form .form-control label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff0048;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form .form-control input[type="text"],
+form .form-control input[type="date"],
+form .form-control input[type="email"],
+form .form-control input[type="tel"],
+form .form-control input[type="password"] {
+    height: 40px;
+    padding: 0 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form .form-control input:focus {
+    border-color: #ff0048;
+}
+
+form .form-control input::placeholder {
+    color: #aaa;
+}
+
+form .form-control.small-inputs {
+    width: 20%;
+}
+
+form .form-control textarea {
+
+    height: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+}
+
+form .form-control.textarea textarea {
+    height: 100px;
+    resize: none;
+}
+
+form .form-control.file {
+    width: 95%;
+}
+
+form .form-control.file input[type="text"],
+form .form-control.file input[type="date"],
+form .form-control.file input[type="email"],
+form .form-control.file input[type="tel"],
+form .form-control.file input[type="password"] {
+    height: auto;
+    padding: 0;
+    border: none;
+}
+
+form .form-control.file input[type="file"] {
+    height: auto;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+form .form-control.file i {
+    color: #ff0048;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.col-1 {
+    width: 8.33%;
+    flex-basis: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+    flex-basis: 16.66%;
+}
+.col-3 {
+    width: 25%;
+    flex-basis: 25%;
+}
+.col-4 {
+    width: 33.33%;
+    flex-basis: 33.33%;
+
+}
+
+.col-6 {
+    width: 50%;
+    flex-basis: 50%;
+}
+
+
+.col-12 {
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.form-control input[type="radio"] {
+    width: 10%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.form-control input[type="radio"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-control input[type="submit"],
+.form-control input[type="reset"] {
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #8a0000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,103 @@
+/* This code is to Style web page as grid layout*/
+
+* {
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(22, 25, 29);
+    margin: 0;
+}
+
+main {
+    width: 30%;
+
+    margin: 20px auto;
+
+}
+
+.Sidebar {
+
+    background-color: #3a3a3d;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    border: 1px solid #ebe4e5;
+    grid-row: 1/2;
+}
+
+.content {
+    background-color: #d9dae5;
+    border: 1px solid #ff4150;
+    text-align: center;
+    padding: 15px;
+    color: #ff4150;
+    margin-top: 100px;
+}
+
+
+a {
+    color: #a09b95;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    display: block
+}
+
+a:hover {
+
+    color: #ff0048
+
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    background: #ff0048;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #ff0048;
+    text-align: center
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #ff4150;
+    text-align: left
+
+}
+
+p {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #ff0048;
+    text-align: left;
+    font-size: 28px;
+}
+
+input {
+    margin: 0 10px;
+    padding: 0 10px;
+    height: 30px;
+    border: 1px solid #ff4150;
+    border-radius: 25px;
+}
